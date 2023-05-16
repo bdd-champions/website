@@ -75,7 +75,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'BDD Automation Workshop',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -92,8 +92,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'BDD Automation',
+                to: '/docs/getting-started',
               },
             ],
           },
@@ -133,6 +133,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['csharp', 'java', 'powershell', 'gherkin'],
       },
     }),
 };
