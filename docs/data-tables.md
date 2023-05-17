@@ -68,7 +68,7 @@ Now get the scenario passing again.
 
 ## The "Assist" table helper functions
 
-The `Rows` property is very useful, but included in the `TechTalk.SpecFlow.Assist` namespace are some extension methods that provide some further functionality.
+The `Rows` property is very useful, but included in the `TechTalk.SpecFlow.Assist` namespace are some extension methods of `Table` that provide some further functionality.
 
 - `CreateSet<T>()` — This method will create an instance of `T` for each non-header row of the table. It will try to match the row headers with the names of public properties of `T` and set them using the values found in each row.
 - `CreateInstance<T>()` — Works similarly to `CreateSet`, but creates a single instance from data tables that have either a single data row or _field_ and _value_ columns and a row for each field setting.
