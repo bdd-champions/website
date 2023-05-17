@@ -19,7 +19,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/getting-started"
           >
-            Automation Workshop - 4 hours ⏱️
+            Automation Fundamentals - 4 hours ⏱️
           </Link>
         </div>
       </div>
