@@ -62,11 +62,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/docusaurus-social-card.png",
       navbar: {
-        title: "BDD Jumpstart",
+        title: "BDD Automation Fundamentals",
         logo: {
-          alt: "BDD Jumpstart Logo",
+          alt: "BDD Automation Fundamentals Logo",
           src: "img/logo.svg",
         },
         items: [
