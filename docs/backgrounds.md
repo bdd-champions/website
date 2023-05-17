@@ -14,7 +14,3 @@ Background:
 Create this background in your feature file and remove the references to `Lucy is at 0, 0` from all the scenarios. Run SpecFlow again to make sure it’s all still working.
 
 Remember, though, that the purpose of the feature file is to make the specification of the system easy to read. Moving steps out of a scenario and into a background can make it harder to read the feature file, because now each scenario now needs to be read in conjunction with the background.
-
-```
-
-```
