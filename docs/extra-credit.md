@@ -2,7 +2,7 @@
 sidebar_position: 17
 ---
 
-# Extra Credit
+# Extra credit
 
 ### 🌟🌟🌟 Contragulations on getting this far! 🌟🌟🌟
 
