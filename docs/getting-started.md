@@ -112,7 +112,7 @@ If dependency installation stalls or errors it may be blocked by your corporate 
 
 :::caution Dependencies
 
-There's no need to modify the project configuration or dependency versions to get the code to work. Many have come before you and done just fine. If you see a dependency that needs updating please let us know.
+There's rarely a need to modify the project configuration or dependency versions to get the project to work.
 
 :::
 

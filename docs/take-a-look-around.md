@@ -12,16 +12,14 @@ There are only a few files here. Use the following diagram to help you decide wh
 
 ![Project anatomy](/img/shouty/cucumber-anatomy.png)
 
-### 🤔 Questions 
+### 🤔 Questions
 
 <details>
-  <summary>Which files correspond to the shapes on the diagram?</summary>
-
+  <summary>Which files correspond to the shapes on the diagram? <sub><strong>(click for answers)</strong></sub></summary>
 
 ![Project anatomy](/img/shouty/cucumber-anatomy-csharp.png)
 
 </details>
-
 
 :::tip DISCUSS
 
@@ -32,15 +30,15 @@ Are there any files whose reason for existing is not clear? Which ones?
 <details>
   <summary>
   
-  The feature file contains scenarios made up of steps. Each step causes SpecFlow to look for a C# step definition to run. How does SpecFlow decide which step definition to run for each step?
+  The feature file contains scenarios made up of steps. Each step causes SpecFlow to look for a C# step definition to run. How does SpecFlow decide which step definition to run for each step? <sub><strong>(click for answers)</strong></sub>
   
   </summary>
 
-Step-definitions are denoted by C# attributes: 
+Step-definitions are denoted by C# attributes:
 
 ```csharp
 [Given(@"Lucy is at {int}, {int}")]
-``` 
+```
 
 Which match steps in the Gherkin like:
 
@@ -48,6 +46,4 @@ Which match steps in the Gherkin like:
 Given Lucy is at 0, 0
 ```
 
-
 </details>
-
