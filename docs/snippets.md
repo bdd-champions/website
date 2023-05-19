@@ -42,7 +42,7 @@ No matching step definition found for one or more steps.
 When SpecFlow comes across a step that doesn’t match any existing step definitions it signals that there is an **_undefined_** step and the scenario containing that step is also marked as **_skipped_** or **_inconclusive_** . For each **_undefined_** step SpecFlow prints out some skeleton code (called a **_snippet_**) that you can use in your step definition class.
 
 SpecFlow also allows you to generate step definitions for undefined steps from the feature file. Use the `Define steps...` (or `Generate Step Definitions`) command from the context menu. You can either generate a new step definitions class, or you can copy the snippets to your clipboard, to paste into an existing class.
-The snippet is only a suggestion and you should edit the regular expression method’s parameters so that they make sense in the context of your scenario.
+The snippet is only a suggestion. You should edit the regular expression and the method’s parameters so that they make sense in the context of your scenario.
 Copy the snippets and paste them into your step definition file and run SpecFlow again. Edit the method name as well.
 
 ### PendingStepException
