@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # Extra credit
 
-### 🌟🌟🌟 Contragulations on getting this far! 🌟🌟🌟
+### 🌟🌟🌟 Congratulations on getting this far! 🌟🌟🌟
 
 If you still have some time here's a fun excercise you can try:
 

@@ -25,7 +25,7 @@ Scenario Outline: only hear in-range shouts
 
 The lines that follow the `Examples` keyword are a Gherkin **_table_**. Each column is separated by a **_pipe_** character `|` and each new line is a separate row. The first row of the table contains column headings, which match text in the scenario outline.
 
-Now replace the first 2 scenarios in `HearShout.feature` with the single scenario outline above and run SpecFlow again. You may find that you only need to edit the feature file - your existing step definitions probably won’t need changed.
+Now replace the first 2 scenarios in `HearShout.feature` with the single scenario outline above and run SpecFlow again. You may find that you only need to edit the feature file - your existing step definitions probably won’t need to be changed.
 
 :::tip discuss
 

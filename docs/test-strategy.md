@@ -12,7 +12,7 @@ The testing pyramid tells us that we’re better off with fewer end-to-end tests
 - brittle
 - difficult to diagnose when they fail
 
-The pyramid also emphasises that there will always be a certain amount of manual and exploratory testing needed.
+The pyramid also emphasizes that there will always be a certain amount of manual and exploratory testing needed.
 
 ![Testing pyramid](/img/shouty/pyramid.png)
 
